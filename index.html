@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../theWeb/style/bootstrap-5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../theWeb/style/icons-main/font/bootstrap-icons.css">
+    <script src="script.js"></script>
+    <script src="../theWeb/style/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="all-container ">
+        <div class="left-message">
+            <p id="score">you : <span id="score"></span></p>
+            <p id="score">computer <i class="bi bi-robot"></i> : <span id="computerScore"></span></p>
+        </div>
+        <div class="screen-container">
+            <div class="screen">
+                <div class="user" id="user"></div>
+                <div class="message" id="message" style="font-size: 12px;"></div>
+                <div class="computer" id="computer"></div>
+            </div>
+        </div>
+        <div class="response">
+            <div class="response-container">
+                <button id="rock" onclick="recieve('rock')">✊</button>
+                <button id="paper" onclick="recieve('paper')">🖐</button>
+                <button id="scissors"onclick="recieve('scissors')">✌</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

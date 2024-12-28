@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+.all-container {
+    box-shadow: 0px 1px 2px 1px rgb(173, 169, 169);
+    width: 500px;
+    border-radius: 5px;
+    height: 210px;
+}
+.all-container .left-message {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.screen-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.screen-container .screen {
+    width: 80%;
+    height: 100px;
+    border: 1px solid rgba(53, 13, 163, 0.425);
+    display: flex;
+    justify-content: space-between;
+}
+.response {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+.response .response-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.response-container button {
+    width: 70px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 28px;
+    border-radius: 9px;
+    padding-bottom:3px;
+}
+.screen div {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;                    
+}
+.message {
+    font-size: 19px;
+}
